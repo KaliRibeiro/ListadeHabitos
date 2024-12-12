@@ -55,7 +55,7 @@ if ($conexao->connect_error) {
     </tr>
 
     <?php
- } // fim do looping
+ }
  ?>
  </tbody>
  </table>
@@ -67,7 +67,7 @@ if ($conexao->connect_error) {
  <p>Você não possui hábitos cadastrados!</p>
  <p><b>Começe já a mudar sua vida!</b></p>
  <?php
-} // fim do if
+} 
 // Fecha a conexão com o MySQL
 $conexao->close();
  ?>
