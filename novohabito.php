@@ -11,17 +11,18 @@ href="styles.css">
  <div class="center">
  <h1>Novo Hábito</h1>
  
- <form id="formulario" action="inserthabito.
+<form id="formulario" action="inserthabito.
 php">
  <p><label>Nome: <input type="text"
 id="nome" name="nome" autofocus /></label></p>
  <p><input type="submit" value="Criar"></
 p>
- </form>
+   </form>
  </div>
+
  <script type="text/javascript">
- // Declara uma função para
- // validar o formulário
+  
+ // Declara uma função para validar o formulário
  var validaForm = function(){
  var nomeHabito = document.
 getElementById("nome").value;
