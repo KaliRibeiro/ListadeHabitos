@@ -6,14 +6,11 @@
 href="styles.css">
     <title>Lista de hábitos</title>
  </head>
+ 
  <body>
  <div class="center">
  <h1>Novo Hábito</h1>
- <!-- Formulário para cadastro de pessoas
- Note a utilização do atributo name, que
-faz
- o link entre os elementos do DOM e o
-JavaScript-->
+ 
  <form id="formulario" action="inserthabito.
 php">
  <p><label>Nome: <input type="text"
@@ -33,9 +30,7 @@ getElementById("nome").value;
  return false;
  }
  }
- // Aqui declaramos que esta
- // função ocorre sempre no
- // submit do formulário
+
  document.getElementById("formulario"). onsubmit = validaForm;
  </script>
  </body>
